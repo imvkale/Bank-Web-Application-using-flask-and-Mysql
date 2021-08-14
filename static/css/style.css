@@ -1,0 +1,87 @@
+.bg{
+   background-image: url("../assets/bg1.jpg");
+   height: 750px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top:100px;
+}
+
+.box{
+  width:500px;
+  border-radius: 15px;
+  background-color: rgba(0,0,0,0.7);
+  margin-left: auto;
+  margin-right: auto;
+  padding:30px;
+  box-shadow: 0px 0px 30px 10px #facb55;
+}
+
+.avatar{
+  margin-left: auto;
+  margin-right: auto;
+  height:200px;
+  padding-top:30px;
+}
+
+.loginform{
+  padding:10px;
+}
+
+.logininput{
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  margin-top:20px;
+  border-radius: 5px;
+  background-color: rgba(179, 175, 175,0.5);
+  border:1px solid rgba(255,255,255,0.5);
+  outline:none;
+  color:white;
+}
+
+.logininput::placeholder{
+  color:white;
+}
+
+.sub_but{
+  padding: 5px;
+  margin-top:20px;
+  background-color: #facb55;
+  border-radius: 5px;
+  outline:none;
+  border:none;
+  width:100px;
+}
+
+.sub_but:hover{
+  background-color: #b08819;
+  box-shadow: 0px 0px 20px 5px #facb55;
+  color:#fff;
+}
+
+.buttonpanel{
+  background-color: #facb55;
+  height:800px;
+  padding-top:20px;
+}
+
+.datapanel{
+  height:800px;
+  background-color:#fffaeb;
+}
+
+.tab{
+  width:100%;
+  border:none;
+  outline:none;
+  margin-top:10px;
+  padding:10px;
+  background-color: #fffaeb;
+}
+.tab:hover{
+  background-color: #f7eccb;
+  border-radius:10px;
+}
